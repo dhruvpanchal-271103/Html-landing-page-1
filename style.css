@@ -1,0 +1,1661 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.container {
+    width: 1440px;
+    margin-left: 100px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.logo {
+    font-size: 20px;
+    color: #1B62F8;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #1F2B6C;
+    font-size: 17px;
+}
+
+.sign-up {
+    background-color: #159FED;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.sign-up:hover {
+    background-color: #153e90;
+}
+
+
+.n-bar {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 20px 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+
+}
+
+.left-content {
+    width: 50%;
+    margin-left: 10px;
+
+}
+
+.left-content h1 {
+    font-size: 60px;
+    padding: 0 100px;
+    margin-top: 100px;
+}
+
+.left-content strong {
+    font-size: 13px;
+}
+
+.left-content p {
+    font-size: 16px;
+    padding: 30px 250px 30px 100px;
+    color: #717171;
+}
+
+.right-content {
+    width: 52%;
+}
+
+.right-content img {
+    width: 135%;
+    border-radius: 5px;
+    margin-top: -50px;
+
+}
+
+.search-bar {
+    font-size: 15px;
+    display: flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 55px 0 0 100px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+}
+
+.search-bar span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.line {
+    position: relative;
+
+}
+
+.line:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 70%;
+    top: 15%;
+    right: 0;
+    background-color: #dddddd;
+}
+
+.search-bar div {
+    flex: 1;
+    padding: 10px 18px;
+
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 100%;
+
+}
+
+.search-bar button {
+    font-size: 16px;
+    background-color: #F85A47;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+
+
+}
+
+.search-bar button:hover {
+    background-color: #e04a2f;
+}
+
+.card {
+    text-align: left;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 65%;
+    /* margin-left: 100px; */
+    gap: 70px;
+
+
+}
+
+.card h3 {
+    font-size: 32px;
+    padding-top: 20px;
+    margin: 10px 0;
+
+}
+
+.icon img {
+    height: 30px;
+    width: 26px;
+}
+
+
+.card p {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #F85A47;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 75px;
+}
+
+.btn:hover {
+    background-color: #e04a2f;
+}
+
+.explanation {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 140px;
+
+
+}
+
+.explanation {
+    font-size: 40px;
+}
+
+
+.work {
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 19% 18% 18%;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 0 80px;
+}
+
+.box {
+    justify-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.work-icon1 {
+    width: 90px;
+    height: 90px;
+    background-color: #9672FF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.work-icon1:hover {
+    background-color: #6436f1;
+}
+
+.work-icon2 {
+    width: 90px;
+    height: 90px;
+    background-color: #4DDFFD;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.work-icon2:hover {
+    background-color: #28bbd8;
+}
+
+
+.work-icon3 {
+    width: 90px;
+    height: 90px;
+    background-color: #F2B8EC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.work-icon3:hover {
+    background-color: #e47dda;
+}
+
+.work-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.description {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #333333;
+}
+
+.americas {
+    padding: 20px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 23% 78%;
+
+}
+
+
+.side-bar h2 {
+    width: 90%;
+    font-size: 30px;
+}
+
+
+.side-bar ul {
+    margin-top: 50px;
+    list-style: none;
+
+}
+
+.side-bar li {
+
+    padding: 10px 0;
+    font-size: 18px;
+    cursor: pointer;
+    color: #666666;
+    margin-top: 25px;
+
+}
+
+.side-bar li.active {
+    color: #F85A47;
+}
+
+
+.image-of-place {
+    display: flex;
+    gap: 20px;
+    overflow: scroll;
+    margin-top: 80px;
+}
+
+
+.image-of-place img {
+    width: 285px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.controls {
+    display: flex;
+    gap: 15px;
+
+
+}
+
+
+.book-office {
+    margin-top: 180px;
+    display: flex;
+    width: 75%;
+    margin-left: 200px;
+    background-color: #D6EBE4;
+}
+
+.office {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.image-section img {
+    width: 520px;
+    height: auto;
+    display: block;
+    margin-top: -70px;
+    margin-left: -70px;
+
+
+
+}
+
+.room-info {
+    padding: 30px;
+    flex: 1;
+}
+
+.room-info h2 {
+    font-size: 31px;
+    width: 80%;
+}
+
+.room-info p {
+    color: #545A58;
+    font-size: 16px;
+    padding-top: 30px;
+    margin: 10px 200px 0 0;
+
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 30px;
+    font-size: 17px;
+}
+
+.info div {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.info span {
+    color: #545A58;
+    display: block;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.book-button {
+    display: inline-block;
+    background: #F85A47;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 100px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.book-button:hover {
+    background-color: #e04a2f;
+}
+
+
+.globe {
+    margin: 150px 0 0 150px;
+
+}
+
+
+.globe h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+
+.globe-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+
+    width: 85%;
+
+}
+
+.stacksy {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    border: 1px solid #f2f2f2;
+
+}
+
+
+.stacksy-1 {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+
+    text-align: left;
+}
+
+
+.star {
+    color: #FBB040;
+    font-size: 20px;
+}
+
+.globe-text {
+    font-size: 16px;
+    margin: 30px 45px 30px 0;
+    line-height: 30px;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 75px auto;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.profile img {
+    height: 48px;
+    width: 48px;
+}
+
+.name {
+    font-size: 16px;
+}
+
+.title-CEO {
+    color: #666666;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto 245px;
+    gap: 15px;
+    width: 85%;
+    margin: 80px 20px;
+    align-items: center;
+    line-height: 1.5
+}
+
+.logos img {
+    height: 25px;
+}
+
+
+.logos a {
+    color: #2CBDE7;
+}
+
+.deals {
+    width: 80%;
+    margin-top: 170px;
+}
+
+.view-property {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.deals h1 {
+    font-size: 40px;
+}
+
+.deals p {
+    word-spacing: 4px;
+    width: 42%;
+    line-height: 1.5;
+}
+
+.categories {
+    font-size: 16px;
+    display: flex;
+    margin: 50px auto;
+    gap: 60px;
+
+
+}
+
+.categories a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+
+}
+
+.categories a.active {
+    color: #F85A47;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+
+.categories .active {
+    border-bottom: 1px;
+}
+
+.property-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.property {
+    width: 40%;
+    position: relative;
+
+}
+
+.property img {
+    height: 300px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #66788e;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    border: 1px solid white;
+}
+
+.view-all {
+    display: inline-block;
+    font-size: 17px;
+    margin: 20px;
+    padding: 15px 25px;
+    background: #F85A47;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.view-all:hover {
+    background-color: #e04a2f;
+}
+
+.worldwide {
+    margin-top: 170px;
+    display: flex;
+    width: 70%;
+    margin-left: 20%;
+
+}
+
+
+.business {
+    width: 90%;
+    display: flex;
+    margin-left: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: #EDF3FF;
+
+
+}
+
+.trust {
+    width: 43%;
+    height: 110%;
+}
+
+.trust img {
+
+    width: 500px;
+    height: auto;
+    margin: -70px 0 0 -40%;
+}
+
+.text-section h3 {
+    font-size: 45px;
+    width: 75%;
+}
+
+.text-section p {
+    font-size: 20px;
+    color: #66677A;
+    width: 60%;
+    margin-top: 2%0px;
+}
+
+.start-button {
+    display: inline-block;
+    padding: 20px 50px;
+    background: #ff6b35;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.start-button:hover {
+    background-color: #e04a2f;
+}
+
+.footer {
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    padding: 40px;
+    width: 85%;
+    margin-top: 150px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #1B62F8;
+    font-weight: bold;
+    gap: 10px;
+}
+
+
+
+.footer-logo img {
+    height: 36px;
+    width: 36px;
+
+
+}
+
+.footer p {
+    font-size: 16px;
+    color: #101130;
+    margin-top: 30px;
+    width: 78%;
+    line-height: 1.5;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #101130;
+    padding-top: 25px;
+}
+
+.payment-methods {
+    margin-top: 10px;
+}
+
+.payment-methods img {
+    width: 35px;
+    margin-top: 20px;
+
+}
+
+.stars {
+    color: #F7AA00;
+    font-size: 20px;
+}
+
+.rating-info {
+    font-size: 16px;
+}
+
+.footer-bottom {
+    width: 75%;
+    margin: 50px 140px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.footer-bottom a {
+    margin-left: 50px;
+    color: #101130;
+    text-decoration: none;
+
+}
+
+
+
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+        margin-left: 0;
+        padding: 0 15px;
+    }
+
+    .navbar {
+        display: flex;
+        padding: 20px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .n-bar {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .left-content {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        padding: 0 15px;
+    }
+
+    .left-content h1 {
+        font-size: 36px;
+        padding: 0;
+    }
+
+    .left-content p {
+        padding: 20px;
+    }
+
+    .right-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-content img {
+        margin-top: 0;
+        margin-left: 5px;
+        height: 400px;
+        width: 145%;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        padding: 10px;
+        margin: 20px auto;
+        width: 95%;
+
+
+
+
+    }
+
+    .search-bar div {
+        padding: 10px;
+    }
+
+    .search-bar input {
+        width: 100%;
+        text-align: center;
+    }
+
+    .line:not(:last-child)::after {
+        display: none;
+    }
+
+    .search-bar button {
+        font-size: 12px;
+        padding: 10px 15px;
+
+
+    }
+
+
+
+    .card {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        padding: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .card h3 {
+        font-size: 22px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .explanation {
+        font-size: 24px;
+        margin-top: 60px;
+    }
+
+    .work {
+        grid-template-columns: 1fr;
+        /* gap: 20px; */
+        padding: 0 20px;
+    }
+
+    .work-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .americas {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .side-bar ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+
+    .side-bar h2 {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .office {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .image-of-place {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+
+    .image-of-place img {
+        width: 100%;
+        height: 90%;
+    }
+
+    .book-office {
+        flex-direction: column;
+        margin-left: 15px;
+        margin-top: 50px;
+        width: 92%;
+    }
+
+    .image-section img {
+        width: 94%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .room-info {
+        padding: 20px;
+        text-align: center;
+
+    }
+
+    .room-info h2 {
+        font-size: 24px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .room-info p {
+        margin: 10px 2px;
+    }
+
+    .info {
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+
+    .info div {
+        font-size: 12px;
+    }
+
+
+    .book-button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    .globe {
+        margin: 50px 0 0 0;
+        /* text-align: center; */
+
+
+    }
+
+    .globe h2 {
+        font-size: 24px;
+        width: 90%;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .globe-container {
+        grid-template-columns: 1fr;
+        width: 100%;
+
+    }
+
+
+
+    .logos {
+        grid-template-columns: 40% 50%;
+        gap: 15px;
+        justify-content: center;
+    }
+
+
+    .view-property {
+        display: block;
+        text-align: center;
+    }
+
+    .view-property h1 {
+        font-size: 24px;
+
+    }
+
+    .view-all {
+        font-size: 12px;
+        margin: 15px;
+        padding: 10px 20px;
+    }
+
+    .deals p {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .categories {
+        text-align: center;
+        gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .categories a {
+        font-size: 14px;
+
+    }
+
+    .property-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .property {
+        width: 90%;
+    }
+
+    .worldwide {
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .business {
+        display: block;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .trust {
+        width: 100%;
+        text-align: center;
+    }
+
+    .trust img {
+        width: 70%;
+        margin: 0;
+        padding: 30px;
+    }
+
+    .text-section {
+        text-align: center;
+    }
+
+    .text-section h3 {
+        font-size: 24px;
+        width: 95%;
+
+    }
+
+    .text-section p {
+        width: 90%;
+        padding: 20px;
+
+        font-size: 12px;
+    }
+
+    .start-button {
+        padding: 15px 20px;
+        margin: 15px;
+        font-size: 12px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer p {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .footer-logo {
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 0;
+        width: 100%;
+
+    }
+
+    .footer-bottom a {
+        margin-left: 0;
+        margin-top: 10px;
+
+    }
+}
+
+
+
+
+
+
+/* Responsive Styles for (min-width: 577px) and (max-width: 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+
+
+    .left-content {
+        width: 100%;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .left-content h1 {
+        font-size: 26px;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .left-content p {
+        padding: 15px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .right-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-content img {
+        height: 100%;
+        margin-top: 10px;
+    }
+
+    .search-bar {
+        flex-direction: row;
+        justify-content: center;
+        width: 95%;
+        margin: 0;
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+
+    .search-bar button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .search-bar div {
+        padding: 10px;
+    }
+
+
+    .search-bar span {
+        gap: 10px;
+    }
+
+
+    .search-bar input {
+        width: 80%;
+    }
+
+    .card {
+        text-align: center;
+        grid-template-columns: auto auto;
+        margin-top: 70px;
+
+    }
+
+    .card h3 {
+        font-size: 20px;
+    }
+
+    .explanation h2 {
+        font-size: 26px;
+    }
+
+    .work {
+        grid-template-columns: auto auto auto;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .work-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .americas {
+        grid-template-columns: 1fr;
+    }
+
+    .side-bar h2 {
+        width: 100%;
+        font-size: 26px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .side-bar ul {
+        display: flex;
+        gap: 30px;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .image-of-place {
+        margin-top: 20px;
+    }
+
+
+    .book-office {
+   
+        margin-left: 60px;
+  
+        width: 85%;
+    }
+
+
+
+
+    .image-section img {
+        width: 350px;
+        margin-top: -180px;
+        margin-left: -35px;
+
+    }
+
+   
+
+    .room-info {
+        padding: 20px;
+        text-align: center;
+
+    }
+
+    .room-info h2 {
+        font-size: 26px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .room-info p {
+        margin: 10px 2px;
+        font-size: 14px;
+    }
+
+    .info {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .info div {
+        font-size: 14px;
+    }
+
+
+    .book-button {
+        font-size: 14px;
+        padding: 15px 10px;;
+
+    }
+
+    .globe h2 {
+        font-size: 26px;
+        width: 90%;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .globe {
+        margin: 60px 0;
+        text-align: center;
+    }
+
+    .globe-container {
+        grid-template-columns: auto auto;
+        margin-left: 30px;
+    }
+
+    .globe-text {
+        font-size: 14px;
+        margin: 10px 0;
+        line-height: 25px;
+    }
+
+    .logos {
+        text-align: left;
+        font-size: 14px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .deals h1 {
+        font-size: 26px;
+        width: 100%;
+    }
+
+    .deals p {
+        font-size: 14px;
+        width: 100%;
+
+    }
+
+    .view-all {
+        font-size: 14px;
+        text-align: center;
+        margin: 15px;
+        padding: 10px 20px;
+    }
+
+    .categories {
+        gap: 20px;
+    }
+
+    .categories a {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .property-list {
+        flex-wrap: wrap;
+    }
+
+    .property {
+        width: 45%;
+    }
+
+    .property img {
+        height: 250px;
+    }
+
+
+    .worldwide {
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .business {
+        display: block;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .trust {
+        width: 100%;
+        text-align: center;
+    }
+
+    .trust img {
+       
+        width: 70%;
+        margin: 0;
+        padding: 30px;
+    }
+
+    .text-section {
+        text-align: center;
+        width: 100%;
+
+
+    }
+
+    .text-section h3 {
+        font-size: 26px;
+        width: 100%;
+
+    }
+
+    .text-section p {
+        width: 100%;
+        padding: 30px;
+        font-size: 14px;
+    }
+
+    .start-button {
+        padding: 20px 30px;
+        margin: 15px;
+        font-size: 14px;
+    }
+
+
+    .footer {
+        grid-template-columns: auto auto auto;
+        text-align: center;
+        margin-top: 60px;
+        gap: 50px;
+    }
+
+    .payment-methods img {
+        width: 30px;
+    }
+
+    .footer p {
+        width: 100%;
+
+    }
+
+    .footer-logo {
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        margin: 50px auto;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1025px) {
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .left-content h1 {
+        font-size: 50px;
+        padding: 0 50px 0 100px;
+    }
+
+    .left-content p {
+        padding: 30px 60px 30px 100px;
+    }
+
+
+
+    .search-bar {
+        margin: 50px 0 0 50px;
+        width: 85%;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+    }
+
+
+
+    .work {
+        grid-template-columns: 30% 30% 30%;
+        padding: 20px;
+
+    }
+
+    .americas {
+        margin-top: 50px;
+        grid-template-columns: 30% 75%;
+    }
+
+    .side-bar h2 {
+        width: 100%;
+    }
+
+    /* .book-office {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 80px;
+        width: 95%;
+    } */
+
+
+
+    .office {
+        display: contents;
+    }
+
+    .room-info {
+        padding: 20px 10px 20px 0;
+    }
+
+    .room-info h2 {
+        font-size: 26px;
+        width: 95%;
+    }
+
+    .room-info p {
+        margin: 10px 2px;
+
+    }
+
+    .book-button {
+        padding: 10px 5px;
+        font-size: 16px;
+    }
+
+
+    .globe h2 {
+        text-align: left;
+        margin-left: 80px;
+        width: 60%;
+    }
+
+    .globe {
+        margin: 60px 0;
+        text-align: center;
+    }
+
+    .globe-container {
+
+        margin-left: 80px;
+    }
+
+    .globe-text {
+
+        margin: 10px 0;
+        line-height: 25px;
+    }
+
+    .logos {
+        margin-left: 80px;
+    }
+
+
+    .deals p {
+        width: 55%;
+    }
+
+    .view-all {
+
+        text-align: center;
+        margin: 10px;
+        padding: 10px 20px;
+    }
+
+
+
+    .categories a {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .worldwide {
+        margin-left: 160px;
+        margin-top: 80px;
+
+    }
+
+    .trust img {
+        width: 400px;
+        margin: -70px 0 0 -30%;
+    }
+
+    .text-section h3 {
+
+        width: 100%;
+
+    }
+
+    .text-section p {
+        width: 90%;
+        margin: 30px 0;
+        width: 75%;
+
+    }
+
+
+
+
+    .footer {
+        margin-top: 60px;
+    }
+
+    .payment-methods img {
+        width: 30px;
+    }
+
+    .footer p {
+        width: 100%;
+
+    }
+
+    .footer-logo {
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        margin: 50px auto;
+    }
+}
